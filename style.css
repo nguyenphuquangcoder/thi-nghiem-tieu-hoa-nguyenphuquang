@@ -1,0 +1,59 @@
+body{
+background:url("images/lab_bg.png") no-repeat center fixed;
+background-size:cover;
+font-family:Arial;
+}
+
+.lab{
+background:rgba(255,255,255,0.95);
+max-width:1000px;
+margin:auto;
+padding:20px;
+border-radius:15px;
+}
+
+.menu button{
+background:#2563eb;
+color:white;
+border:none;
+padding:10px 15px;
+border-radius:20px;
+margin:5px;
+cursor:pointer;
+}
+
+.scene{
+position:relative;
+text-align:center;
+}
+
+.scene img{
+width:300px;
+}
+
+.food{
+position:absolute;
+left:50%;
+top:0;
+transform:translateX(-50%);
+font-size:30px;
+transition:all 1.5s;
+}
+
+.explain{
+background:#eef2ff;
+padding:10px;
+margin-top:10px;
+border-left:5px solid #2563eb;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th,td{
+border:1px solid #ccc;
+padding:8px;
+text-align:center;
+}

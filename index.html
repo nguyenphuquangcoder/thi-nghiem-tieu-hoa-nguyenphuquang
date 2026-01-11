@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Thí nghiệm ảo – Tiêu hoá ở động vật</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="lab">
+
+<h1>THÍ NGHIỆM ẢO: TIÊU HOÁ Ở ĐỘNG VẬT</h1>
+<p class="subtitle">Quan sát các giai đoạn tiêu hoá – Sinh học 11</p>
+
+<div class="menu">
+<button onclick="showLab(1)">Chưa có CQTH</button>
+<button onclick="showLab(2)">Dạng túi</button>
+<button onclick="showLab(3)">Dạng ống</button>
+<button onclick="showLab(4)">Kết luận</button>
+</div>
+
+<!-- LAB 1 -->
+<div class="experiment" id="lab1">
+<h2>1. Động vật chưa có cơ quan tiêu hoá (Bọt biển)</h2>
+
+<div class="scene">
+<img src="images/sponge.png">
+<div class="food" id="f1">🍞</div>
+</div>
+
+<button onclick="lab1()">Bắt đầu thí nghiệm</button>
+<div class="explain" id="e1"></div>
+</div>
+
+<!-- LAB 2 -->
+<div class="experiment" id="lab2">
+<h2>2. Tiêu hoá dạng túi (Thuỷ tức)</h2>
+
+<div class="scene">
+<img src="images/hydra.png">
+<div class="food" id="f2">🍤</div>
+</div>
+
+<button onclick="lab2()">Bắt đầu thí nghiệm</button>
+<div class="explain" id="e2"></div>
+</div>
+
+<!-- LAB 3 -->
+<div class="experiment" id="lab3">
+<h2>3. Tiêu hoá dạng ống (Người)</h2>
+
+<div class="scene">
+<img src="images/digest_path.png">
+<div class="food" id="f3">🍎</div>
+</div>
+
+<button onclick="lab3()">Bắt đầu thí nghiệm</button>
+<div class="explain" id="e3"></div>
+</div>
+
+<!-- CONCLUSION -->
+<div class="experiment" id="lab4">
+<h2>BẢNG KẾT LUẬN SO SÁNH</h2>
+
+<table>
+<tr>
+<th>Tiêu chí</th>
+<th>Chưa có CQTH</th>
+<th>Dạng túi</th>
+<th>Dạng ống</th>
+</tr>
+
+<tr>
+<td>Cơ quan</td>
+<td>Không có</td>
+<td>Miệng</td>
+<td>Miệng – Hậu môn</td>
+</tr>
+
+<tr>
+<td>Tiêu hoá</td>
+<td>Enzyme lysosome</td>
+<td>Ngoại bào + nội bào</td>
+<td>Cơ học + hoá học</td>
+</tr>
+
+<tr>
+<td>Hấp thụ</td>
+<td>Trong tế bào</td>
+<td>Tế bào tuyến vận chuyển</td>
+<td>Lông nhung ruột non</td>
+</tr>
+
+<tr>
+<td>Thải cặn</td>
+<td>Qua bề mặt cơ thể</td>
+<td>Qua miệng</td>
+<td>Qua hậu môn</td>
+</tr>
+</table>
+
+<p class="summary">
+Cả ba hình thức tiêu hoá đều cung cấp chất dinh dưỡng
+phục vụ hoạt động sống của cơ thể.
+</p>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
